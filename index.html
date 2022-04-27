@@ -1,2 +1,75 @@
-<h1>Reac JS</h1>
+<h1 style="text-align:center">Reac JS</h1>
+
+
+<h2>Bài 1: SPA/MPA là gì</h2>
+-Được cho là cách tiếp cận hiện đại nhất
+-không yêu cầu tải lại trang trong quá trình sử dụng
+-gender giao diện ở client
+
+**MPA
+-tiếp cận cổ điển hơn
+-tải lại trang trong quá trình sử dụng
+-gender giao diện ở server
+
+**So sánh
+###Tốc độ
+Spa:nanh hơn trong khi sử dụng
+    -phần lớn tài nguyên được tải trong lần tải đầu
+    -phần lớn chỉ tải dữ liệu mới khi cần
+-MPA:chậm hơn khi sử dụng
+    -luôn tải toàn bộ trang khi truy cập và chuyển hướng
+
+### Bóc tách:
+-SPA có phần front-end riêng biệt
+-MPA front-end và back-end phụ thuộc nhau nhiều hơn,được đặt trong cùng dự án
+
+## SEO
+-SPA không thân thiện với SEO như MPA
+-Trải nghiệm trên thiết bị di động tốt hơn
+
+### US
+-SPA cho trải nghiệm tốt hơn,nhất là các thao tác chuyển trang
+-Trải nghiệm tốt hơn trên thiết bị di động
+
+### Quá trình phát triển
+-SPA dễ ràng tải sử dụng code(component)
+-SPA bóc tách FE&&BE
+      -chia team phát triển song song
+      -Phát triển thêm mobile app dễ ràng hơn
+
+## phụ thuộc vào JavaScript
+-SPA phụ thuộc hoàn toàn vào Javascipt
+=MPA có thể không cần
+
+<h2> Bài 2:Arrow function: </h2>
+-hàm mũi tên
+-giúp code ngắn gọn hơn
+-không có context
+-không thể dùng làm function contructor
+
+
+<h2>Enhanced object literals</h2>
+1.định nghĩa key-value cho obj
+2.định nghĩa method cho obj
+3.định nghĩa key cho obj dưới dạng biến
+
+<h2>Destructuring, Rest</h2>
+-sử dụng vơi obj array
+ex:
+var array=['js','php','ruby'];
+var [a,b,c]=array;
+consolog(a,b,c);
+
+
+rest:lấy phần còn lại
+var array=['js','php','ruby'];
+var [a,b,...rest]=array;
+
+ex:
+var course={
+  name:'js',
+ price:100
+}
+var {name,price}=course;
+conslog(course);
 
