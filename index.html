@@ -1,99 +1,101 @@
 <h1 style="text-align:center">Reac JS</h1>
 <hr>
+<div style="margin-left:60px">
+    <h2>Bài 1: SPA/MPA là gì</h2>
+    -Được cho là cách tiếp cận hiện đại nhất
+    <br>
+    -không yêu cầu tải lại trang trong quá trình sử dụng
+    <br>
+    -gender giao diện ở client
+    <br>
 
-<h2>Bài 1: SPA/MPA là gì</h2>
--Được cho là cách tiếp cận hiện đại nhất
-<br>
--không yêu cầu tải lại trang trong quá trình sử dụng
-<br>
--gender giao diện ở client
-<br>
-
-**MPA
-<br>
--tiếp cận cổ điển hơn
-<br>
--tải lại trang trong quá trình sử dụng
-<br>
--gender giao diện ở server
-<br>
-**So sánh
-<br>
-###Tốc độ
-<br>
-Spa:nanh hơn trong khi sử dụng
-<br>
-    -phần lớn tài nguyên được tải trong lần tải đầu
-<br>
-    -phần lớn chỉ tải dữ liệu mới khi cần
-<br>
--MPA:chậm hơn khi sử dụng
-<br>
-    -luôn tải toàn bộ trang khi truy cập và chuyển hướng
-<br>
-### Bóc tách:
-<br>
--SPA có phần front-end riêng biệt
-<br>
--MPA front-end và back-end phụ thuộc nhau nhiều hơn,được đặt trong cùng dự án
-<br>
-## SEO
-<br>
--SPA không thân thiện với SEO như MPA
-<br>
--Trải nghiệm trên thiết bị di động tốt hơn
-<br>
-### US
-<br>
--SPA cho trải nghiệm tốt hơn,nhất là các thao tác chuyển trang
-<br>
--Trải nghiệm tốt hơn trên thiết bị di động
-<br>
-### Quá trình phát triển
-<br>
--SPA dễ ràng tải sử dụng code(component)
-<br>
--SPA bóc tách FE&&BE
-<br>
-      -chia team phát triển song song
-<br>
-      -Phát triển thêm mobile app dễ ràng hơn
-<br>
-## phụ thuộc vào JavaScript
-<br>
--SPA phụ thuộc hoàn toàn vào Javascipt
-<br>
-=MPA có thể không cần
-<br>
-<h2> Bài 2:Arrow function: </h2>
--hàm mũi tên
--giúp code ngắn gọn hơn
--không có context
--không thể dùng làm function contructor
-
-
-<h2>Enhanced object literals</h2>
-1.định nghĩa key-value cho obj
-2.định nghĩa method cho obj
-3.định nghĩa key cho obj dưới dạng biến
-
-<h2>Destructuring, Rest</h2>
--sử dụng vơi obj array
-ex:
-var array=['js','php','ruby'];
-var [a,b,c]=array;
-consolog(a,b,c);
+    **MPA
+    <br>
+    -tiếp cận cổ điển hơn
+    <br>
+    -tải lại trang trong quá trình sử dụng
+    <br>
+    -gender giao diện ở server
+    <br>
+    **So sánh
+    <br>
+    ###Tốc độ
+    <br>
+    Spa:nanh hơn trong khi sử dụng
+    <br>
+        -phần lớn tài nguyên được tải trong lần tải đầu
+    <br>
+        -phần lớn chỉ tải dữ liệu mới khi cần
+    <br>
+    -MPA:chậm hơn khi sử dụng
+    <br>
+        -luôn tải toàn bộ trang khi truy cập và chuyển hướng
+    <br>
+    ### Bóc tách:
+    <br>
+    -SPA có phần front-end riêng biệt
+    <br>
+    -MPA front-end và back-end phụ thuộc nhau nhiều hơn,được đặt trong cùng dự án
+    <br>
+    ## SEO
+    <br>
+    -SPA không thân thiện với SEO như MPA
+    <br>
+    -Trải nghiệm trên thiết bị di động tốt hơn
+    <br>
+    ### US
+    <br>
+    -SPA cho trải nghiệm tốt hơn,nhất là các thao tác chuyển trang
+    <br>
+    -Trải nghiệm tốt hơn trên thiết bị di động
+    <br>
+    ### Quá trình phát triển
+    <br>
+    -SPA dễ ràng tải sử dụng code(component)
+    <br>
+    -SPA bóc tách FE&&BE
+    <br>
+          -chia team phát triển song song
+    <br>
+          -Phát triển thêm mobile app dễ ràng hơn
+    <br>
+    ## phụ thuộc vào JavaScript
+    <br>
+    -SPA phụ thuộc hoàn toàn vào Javascipt
+    <br>
+    =MPA có thể không cần
+    <br>
+    <h2> Bài 2:Arrow function: </h2>
+    -hàm mũi tên
+    -giúp code ngắn gọn hơn
+    -không có context
+    -không thể dùng làm function contructor
 
 
-rest:lấy phần còn lại
-var array=['js','php','ruby'];
-var [a,b,...rest]=array;
+    <h2>Enhanced object literals</h2>
+    1.định nghĩa key-value cho obj
+    2.định nghĩa method cho obj
+    3.định nghĩa key cho obj dưới dạng biến
 
-ex:
-var course={
-  name:'js',
- price:100
-}
-var {name,price}=course;
-conslog(course);
+    <h2>Destructuring, Rest</h2>
+    -sử dụng vơi obj array
+    ex:
+    var array=['js','php','ruby'];
+    var [a,b,c]=array;
+    consolog(a,b,c);
+
+
+    rest:lấy phần còn lại
+    var array=['js','php','ruby'];
+    var [a,b,...rest]=array;
+
+    ex:
+    var course={
+      name:'js',
+     price:100
+    }
+    var {name,price}=course;
+    conslog(course);
+</div>
+
 
